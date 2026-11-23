@@ -5,14 +5,14 @@ internal class Program
     {
         DataService ds = new DataService();
 
-        Console.Title = "Спринт #5 | Выполнил: Котлова Е.А. | АСОиУБ-26-1";
+        Console.Title = "Спринт #5 | Выполнила: Котлова Е.А. | АСОиУБ-26-1";
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #5                                                               *");
         Console.WriteLine("* Тема: Обработка файлов в C#                                             *");
         Console.WriteLine("* Задание #0                                                              *");
         Console.WriteLine("* Вариант #30                                                             *");
-        Console.WriteLine("* Выполнил: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
+        Console.WriteLine("* Выполнила: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Дано выражение вычислить его значение при x = 3, результат сохранить в  *");
@@ -29,7 +29,6 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        // Вызываем метод и сохраняем путь к файлу
         string res = ds.SaveToFileTextData(x);
 
         Console.WriteLine("Файл: " + res);
