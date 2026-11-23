@@ -5,7 +5,7 @@ namespace Tyuiu.KotlovaEA.Sprint5.Task0.V30.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "OutPutFileTask0.txt");
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
 
             double z = (Math.Pow(x, 2) + 1) / (3.0 * x + 4.0);
 
