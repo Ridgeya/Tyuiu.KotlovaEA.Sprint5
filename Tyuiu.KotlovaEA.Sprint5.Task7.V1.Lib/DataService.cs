@@ -8,7 +8,6 @@ namespace Tyuiu.KotlovaEA.Sprint5.Task7.V1.Lib
         public string LoadDataAndSave(string path)
         {
             string text = File.ReadAllText(path);
-
             StringBuilder sb = new StringBuilder();
 
             foreach (char c in text)
@@ -19,10 +18,14 @@ namespace Tyuiu.KotlovaEA.Sprint5.Task7.V1.Lib
                 }
             }
 
-            string result = sb.ToString();
+            string result = sb.ToString().Trim();
+
+            if (result.EndsWith("."))
+            {
+                result = result.TrimEnd('.').Trim();
+            }
 
             string pathWrite = Path.Combine(Path.GetTempPath(), "OutPutFileTask7V1.txt");
-
             File.WriteAllText(pathWrite, result);
 
             return pathWrite;
