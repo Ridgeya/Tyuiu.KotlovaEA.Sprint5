@@ -12,7 +12,7 @@ internal class Program
         Console.WriteLine("* Тема: Обработка файлов в C#                                             *");
         Console.WriteLine("* Задание #1                                                              *");
         Console.WriteLine("* Вариант #28                                                             *");
-        Console.WriteLine("* Выполнила: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
+        Console.WriteLine("* Выполнила: Котлова Елизавета Алексеевна | АСОиУБ-26-1                   *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Дана функция F(x) = cos(x)/(x-0.7) - sin(x)*12x + 2.                    *");
